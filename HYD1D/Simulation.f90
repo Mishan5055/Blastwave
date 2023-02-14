@@ -149,7 +149,7 @@ end module eosmod
       vol  = (4.0*pi/3.0d0*dr**3)-(4.0*pi/3.0d0*x1min**3)
       frac = 0.8d0
       rho1 = (10.0d0*Msolar)/vol
-      eexp = frac*(1.0d51) ! erg
+      eexp = frac*(1.0d45) ! erg
       pre1 = eexp/vol*(gam-1.0d0)  
       vel1 = sqrt((1.0d0-frac)*eexp/vol/rho1)
 
